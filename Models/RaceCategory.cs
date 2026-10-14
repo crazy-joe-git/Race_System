@@ -7,10 +7,10 @@ namespace Race_System.Models
     public class RaceCategory
     {
         [Key]
-        public int CategoryID { get; set; } // Primary Key
+        public int CategoryID { get; set; } 
 
         [Required]
-        public string CategoryName { get; set; } = string.Empty; // e.g., "10K Challenge"
+        public string CategoryName { get; set; } = string.Empty; // e.g, "10K Challenge"
 
         [Required]
         public int Distance { get; set; } // Distance in km

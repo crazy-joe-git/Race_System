@@ -7,7 +7,7 @@ namespace Race_System.Models
     public class EventRace
     {
         [Key]
-        public int EventRaceID { get; set; } // Primary Key
+        public int EventRaceID { get; set; } 
 
         [Required]
         public TimeSpan StartTime { get; set; }
@@ -15,7 +15,7 @@ namespace Race_System.Models
         [Required]
         public int MaxParticipants { get; set; }
 
-        public int EventID { get; set; } // Foreign Key to Event
-        public int CategoryID { get; set; } // Foreign Key to RaceCategory
+        public int EventID { get; set; }
+        public int CategoryID { get; set; } 
     }
 }

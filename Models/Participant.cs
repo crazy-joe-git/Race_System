@@ -7,7 +7,7 @@ namespace Race_System.Models
     public class Participant
     {
         [Key]
-        public int ParticipantID { get; set; } // Primary Key
+        public int ParticipantID { get; set; }
 
         [Required]
         public string FirstName { get; set; } = string.Empty;
@@ -24,7 +24,7 @@ namespace Race_System.Models
         [Required]
         public string Phone { get; set; } = string.Empty;
 
-        // Extra fields needed for Part 2 authentication & role enforcement
+        
         public string? PasswordHash { get; set; }
         public string? Role { get; set; } // "Organiser" or "Participant"
     }

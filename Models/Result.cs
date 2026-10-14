@@ -7,7 +7,7 @@ namespace Race_System.Models
     public class Result
     {
         [Key]
-        public int ResultID { get; set; } // Primary Key
+        public int ResultID { get; set; } 
 
         [Required]
         public TimeSpan FinishTime { get; set; }
@@ -18,6 +18,6 @@ namespace Race_System.Models
         [Required]
         public int RankInCategory { get; set; }
 
-        public int RegistrationID { get; set; } // Foreign Key to Registration
+        public int RegistrationID { get; set; } 
     }
 }

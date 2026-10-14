@@ -7,7 +7,7 @@ namespace Race_System.Models
     public class Event
     {
         [Key]
-        public int EventID { get; set; } // Primary Key
+        public int EventID { get; set; } 
 
         [Required]
         public string EventName { get; set; } = string.Empty;

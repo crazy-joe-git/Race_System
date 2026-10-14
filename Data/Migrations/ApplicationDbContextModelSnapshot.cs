@@ -176,45 +176,45 @@ namespace Race_System.Data.Migrations
                         new
                         {
                             ParticipantID = 1,
-                            DateOfBirth = new DateTime(1990, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "john.doe@gmail.com",
-                            FirstName = "John",
-                            LastName = "Doe",
-                            PasswordHash = "$2a$11$5tT750jQIZzSFtaJT0khauPq8gZDeCFsohtGy/.Nlft7WmiZacoLW",
-                            Phone = "5550101",
+                            DateOfBirth = new DateTime(1999, 5, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "sim.sim@gmail.com",
+                            FirstName = "Simphiwe",
+                            LastName = "Mkhize",
+                            PasswordHash = "$2a$11$D8D/x0Avn1v7cYDjXLTdVeSWwM04.F9Z8pihZ5x07MDGsTNWGwaPC",
+                            Phone = "0681237631",
                             Role = "Organiser"
                         },
                         new
                         {
                             ParticipantID = 2,
-                            DateOfBirth = new DateTime(1985, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "jane.smith@gmail.com",
-                            FirstName = "Jane",
-                            LastName = "Smith",
-                            PasswordHash = "$2a$11$5tT750jQIZzSFtaJT0khauPq8gZDeCFsohtGy/.Nlft7WmiZacoLW",
-                            Phone = "5550102",
+                            DateOfBirth = new DateTime(2000, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "somizij@gmail.com",
+                            FirstName = "Julius",
+                            LastName = "Somizi",
+                            PasswordHash = "$2a$11$D8D/x0Avn1v7cYDjXLTdVeSWwM04.F9Z8pihZ5x07MDGsTNWGwaPC",
+                            Phone = "0789754432",
                             Role = "Organiser"
                         },
                         new
                         {
                             ParticipantID = 3,
-                            DateOfBirth = new DateTime(1992, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "michael.brown@gmail.com",
-                            FirstName = "Michael",
-                            LastName = "Brown",
-                            PasswordHash = "$2a$11$5tT750jQIZzSFtaJT0khauPq8gZDeCFsohtGy/.Nlft7WmiZacoLW",
-                            Phone = "5550103",
+                            DateOfBirth = new DateTime(2005, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "amahle.zulu@gmail.com",
+                            FirstName = "Amahle",
+                            LastName = "Zulu",
+                            PasswordHash = "$2a$11$D8D/x0Avn1v7cYDjXLTdVeSWwM04.F9Z8pihZ5x07MDGsTNWGwaPC",
+                            Phone = "0846862214",
                             Role = "Participant"
                         },
                         new
                         {
                             ParticipantID = 4,
                             DateOfBirth = new DateTime(1998, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "emily.davis@gmail.com",
-                            FirstName = "Emily",
-                            LastName = "Davis",
-                            PasswordHash = "$2a$11$5tT750jQIZzSFtaJT0khauPq8gZDeCFsohtGy/.Nlft7WmiZacoLW",
-                            Phone = "5550104",
+                            Email = "bonga.m@gmail.com",
+                            FirstName = "Bonga",
+                            LastName = "Mqandi",
+                            PasswordHash = "$2a$11$D8D/x0Avn1v7cYDjXLTdVeSWwM04.F9Z8pihZ5x07MDGsTNWGwaPC",
+                            Phone = "0671806529",
                             Role = "Participant"
                         });
                 });

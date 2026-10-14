@@ -7,7 +7,7 @@ namespace Race_System.Models
     public class Registration
     {
         [Key]
-        public int RegistrationID { get; set; } // Primary Key
+        public int RegistrationID { get; set; } 
 
         [Required]
         public DateTime Reg_Date { get; set; }
@@ -16,9 +16,9 @@ namespace Race_System.Models
         public int BidNumber { get; set; }
 
         [Required]
-        public string PaymentStatus { get; set; } = string.Empty; // e.g., "Paid", "Pending"
+        public string PaymentStatus { get; set; } = string.Empty; // "Paid", "Pending"
 
-        public int ParticipantID { get; set; } // Foreign Key to Participant
-        public int EventRaceID { get; set; } // Foreign Key to EventRace
+        public int ParticipantID { get; set; } 
+        public int EventRaceID { get; set; } 
     }
 }

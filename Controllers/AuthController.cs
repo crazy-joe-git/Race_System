@@ -25,7 +25,7 @@ namespace Race_System.Controllers
             public string Email { get; set; } = string.Empty;
             public string Phone { get; set; } = string.Empty;
             public string Password { get; set; } = string.Empty;
-            public string Role { get; set; } = "Participant"; // Default to Participant
+            public string Role { get; set; } = "Participant";
         }
 
         // DTO for Login Request
@@ -45,7 +45,7 @@ namespace Race_System.Controllers
                 return BadRequest(new { message = "Email is already registered." });
             }
 
-            // Create new participant matching Part 1 ERD
+            // Create new participant 
             var participant = new Participant
             {
                 FirstName = dto.FirstName,
