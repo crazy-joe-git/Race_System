@@ -26,10 +26,10 @@ namespace Race_System.Data
 
             // 1. Seed Participants (covering both Organisers and Participants)
             modelBuilder.Entity<Participant>().HasData(
-                new Participant { ParticipantID = 1, FirstName = "John", LastName = "Doe", DateOfBirth = new DateTime(1990, 5, 12), Email = "john.doe@gmail.com", Phone = "5550101", PasswordHash = defaultPasswordHash, Role = "Organiser" },
-                new Participant { ParticipantID = 2, FirstName = "Jane", LastName = "Smith", DateOfBirth = new DateTime(1985, 8, 24), Email = "jane.smith@gmail.com", Phone = "5550102", PasswordHash = defaultPasswordHash, Role = "Organiser" },
-                new Participant { ParticipantID = 3, FirstName = "Michael", LastName = "Brown", DateOfBirth = new DateTime(1992, 11, 3), Email = "michael.brown@gmail.com", Phone = "5550103", PasswordHash = defaultPasswordHash, Role = "Participant" },
-                new Participant { ParticipantID = 4, FirstName = "Emily", LastName = "Davis", DateOfBirth = new DateTime(1998, 2, 17), Email = "emily.davis@gmail.com", Phone = "5550104", PasswordHash = defaultPasswordHash, Role = "Participant" }
+                new Participant { ParticipantID = 1, FirstName = "Simphiwe", LastName = "Mkhize", DateOfBirth = new DateTime(1999, 5, 12), Email = "sim.sim@gmail.com", Phone = "0681237631", PasswordHash = defaultPasswordHash, Role = "Organiser" },
+                new Participant { ParticipantID = 2, FirstName = "Julius", LastName = "Somizi", DateOfBirth = new DateTime(2000, 8, 24), Email = "somizij@gmail.com", Phone = "0789754432", PasswordHash = defaultPasswordHash, Role = "Organiser" },
+                new Participant { ParticipantID = 3, FirstName = "Amahle", LastName = "Zulu", DateOfBirth = new DateTime(2005, 11, 3), Email = "amahle.zulu@gmail.com", Phone = "0846862214", PasswordHash = defaultPasswordHash, Role = "Participant" },
+                new Participant { ParticipantID = 4, FirstName = "Bonga", LastName = "Mqandi", DateOfBirth = new DateTime(1998, 2, 17), Email = "bonga.m@gmail.com", Phone = "0671806529", PasswordHash = defaultPasswordHash, Role = "Participant" }
             );
 
             // 2. Seed Events (matching your SQL script)
